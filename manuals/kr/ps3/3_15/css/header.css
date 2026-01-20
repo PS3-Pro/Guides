@@ -1,0 +1,126 @@
+/*------change link color-------*/
+#headerlogo a {
+	color: #3a3a3a;
+	text-decoration: none;
+}
+#headerlogo a:hover { color: #3a3a3a; }
+/*---------------------------------------------------*/
+/* header 
+---------------------------------------------------- */
+/*-----------version --2007.06.29--------------------*/
+#pagetitle {
+	font-weight: bold;
+	line-height: 100%;
+	padding-bottom: 3px;/*09.08.14*/
+	padding-top: 3px;/*09.08.14*/
+	float:left;
+}
+#versionbox {
+	float: left;
+	line-height: 100%;
+	font-weight: bold;
+	padding-left: 3px;
+	padding-bottom: 3px;/*09.08.14*/
+	padding-top: 3px;/*09.08.14*/
+}
+#versionNumber { width: 200px; }
+/*---------------------------------------------------*/
+#headerlogo {
+	width: 100%;
+	clear: both;
+	text-align: left;
+}
+#familylogo {
+	background-image: url(../imgs/pslogo.gif);
+	background-repeat: no-repeat;
+	width: 725px;/*07.07.10*/
+	margin-right: auto;
+	margin-left: auto;
+	background-position: 0px 15px;
+	padding: 15px 0px 14px 55px;
+}
+#headerlogo h1 {
+	text-align: left;
+	line-height: 120%;
+	clear: left;/*07.07.10*/
+	width: 470px;/*07.07.10*/
+}
+#header {
+	width: 100%;
+	background-repeat: repeat-x;
+	background-image: url(../imgs/bg_main.jpg);
+	height: 47px;
+	margin-bottom: 23px;
+}
+#headbox {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 13px;
+}
+.arrow1 {
+	text-align:right;
+	height: 40px;
+	display: block;
+}
+#ps3logo {/*09.07.27*/
+	float: right;
+	width: 119px;
+	background: url(../imgs/ps3logo_2.gif) no-repeat left center;
+	height: 41px;
+	margin-top: 1px;
+}
+/* search
+---------------------------------------------------- */
+#search {
+	float: left;
+	text-align: left;
+	width: 240px;
+}
+.inputS {
+	border: 1px solid #C7C7C7;
+	width: 127px;
+	vertical-align:top;
+	color:#333333;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	font-size: 90%;
+}
+input:focus { background:#f6f8f9; }
+textarea:focus { background:#f6f8f9; }
+/*---------------------------*/
+/* photogallery
+---------------------------------------------------- */
+/* 2008.11.17 YIT */
+/**/
+#familylogo_photog {
+	background-image: url(../imgs/pslogo.gif);
+	background-repeat: no-repeat;
+	width: 725px;/*07.07.10*/
+	margin-right: auto;
+	margin-left: auto;
+	background-position: 0px 15px;
+	padding: 15px 0px 0px 55px;
+	height: 36px;
+}
+#photoglogo {
+	float: right;
+	width: 235px;
+	background: url(../imgs/photoglogo.jpg) no-repeat left top;
+	height: 84px;
+}
+#headbox_photog {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+}
+#header_photog {
+	width: 100%;
+	background-repeat: repeat-x;
+	background-image: url(../imgs/photog_bg_main.jpg);
+	height: 85px;
+	margin-bottom: 0px;
+}

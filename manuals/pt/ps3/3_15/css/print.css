@@ -1,0 +1,295 @@
+/*print*/
+body {
+	background: none;
+	color:black;
+	font-size:10pt;
+}
+/*07.07.10
+-------------------------------*/
+#familylogo {
+	padding-left: 0px;
+}
+/*07.02.09
+-------------------------------*/
+#headerlogo h1, #headerlogo p {
+	text-indent: 0px;
+}
+#header, #headbox, #maintitle p {
+	display:none;	
+}
+/*---------------------------*/
+.arrow1 {
+	font-size:9pt;
+	text-align:left;
+}
+.arrow {
+	font-size:9pt;
+	float:left;
+	text-align:left;
+}
+#ps3logo, #menuBox, #search, .back {
+	display:none;
+}
+#main, #main_full, #mainlist, #mainlist ul {
+	width: 640px;
+	margin: 0px;
+	padding: 0px;
+	float:none;
+}
+#maintop {
+	margin: 0px;
+	padding: 0px;
+	text-align:left;
+	float:left;
+}
+
+#maintop p {
+	padding-top: 4px;
+	padding-bottom: 5px;
+	line-height: 150%;
+}
+#maintop .arrow_top {
+	font-size: 75%;
+	text-align: left;
+}
+/*footer 
+/*When print it, display a copy.
+---------------------------------------------------- */
+#footer .copy img {
+	display:none;
+}
+#footer .print {
+	display:block;
+	text-align:left;
+	font-size:75%;
+}
+/*PS familiy logo dosen't display it.*/
+#maintop h1, #header img {
+	display:none;
+}
+/* mainlist
+---------------------------------------------------- */
+
+#mainlist li {
+	line-height:normal;
+}
+
+
+.list, .list_close {
+	display: list-item;
+	list-style-position: outside;
+	list-style-image: url(../imgs/p_arrow-.gif);
+	list-style-type: none;
+	text-indent:30px;
+}
+
+.list_expand {
+	display: list-item;
+	list-style-position: outside;
+	list-style-image: url(../imgs/p_arrow+.gif);
+	list-style-type: none;
+	text-indent:30px;
+}
+
+.list-circle {
+	display: list-item;
+	list-style-position: outside;
+	list-style-image: url(../imgs/p_arrowo.gif);
+	list-style-type: none;
+	text-indent:42px;
+}
+
+
+/* contents table
+---------------------------------------------------- */
+
+#main .table {
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-left-color: #000000;
+}
+
+#main .table_full {
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+	width:100%;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-left-color: #000000;
+}
+
+#main .th {
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	padding: 4px;
+	margin: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	vertical-align: top;
+}
+
+#main .th1 {
+	list-style-type: none;
+	padding: 4px;
+	margin: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	vertical-align: top;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+
+#main .th2 {
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	padding: 4px;
+	margin: 0px;
+	vertical-align: top;
+}
+
+#main .th3 {
+	list-style-type: none;
+	padding: 4px;
+	margin: 0px;
+	vertical-align: top;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+
+#main .td {
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	margin: 0px;
+	padding: 4px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+}
+
+#main .td1 {
+	list-style-type: none;
+	padding: 4px;
+	margin: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+}
+
+#main .td2 {
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	margin: 0px;
+	padding: 4px;
+}
+
+#main .td3 {
+	list-style-type: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	margin: 0px;
+	padding: 4px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+
+.tableC {
+	width: 535px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.tableC th {
+	width: 10px;
+	vertical-align: top;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	padding-top: 6px;
+	padding-left: 2px;
+	margin-bottom: 2px;
+	padding-right: 4px;
+	font-weight: bold;
+	text-align: left;
+}
+.tableC td {
+	vertical-align: top;
+	padding-top: 6px;
+	padding-left: 2px;
+	margin-bottom: 2px;
+	padding-right: 4px;
+	font-weight: normal;
+	text-align: left;
+}
+.tableS {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.tableS th {
+	font-size: 0.80em;
+	vertical-align: top;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	padding-top: 0px;
+	padding-left: 2px;
+	padding-right: 4px;
+	font-weight: normal;
+	text-align: left;
+}
+.tableS td {
+	vertical-align: top;
+	padding-top: 0px;
+	padding-left: 2px;
+	margin-bottom: 0px;
+	padding-right: 4px;
+	font-weight: normal;
+	text-align: left;
+}
+
+/*---------------------------*/
+/* photogallery
+---------------------------------------------------- */
+/* 2008.11.17 YIT */
+/**/
+#mainlist_photog, #mainlist_photog ul { width: 640px; margin: 0px; padding: 0px; float:none; }
+
+#mainlist_photog li { line-height:normal;}
+
+#main_full_photog {width: 640px;}
